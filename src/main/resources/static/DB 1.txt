@@ -1,0 +1,150 @@
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science & Nature','easy','Which of the following bones is not in the leg?','Radius','Radius','Patella','Tibia','Fibula');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','easy','What is the name of &quot;Team Fortress 2&quot; update, in which it became Free-to-play?','&Uuml;ber Update','&Uuml;ber Update','Pyromania Update','Mann-Conomy Update','Engineer Update');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Music','easy','Which Canadian reggae musician had a 1993 hit with the song &#039;Informer&#039;?','Snow','Snow','Rain','Hail','Sleet');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Comics','hard','In the Batman comics, by what other name is the villain Dr. Jonathan Crane known?','Scarecrow','Scarecrow','Bane','Calendar Man','Clayface');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','medium','Rolex is a company that specializes in what type of product?','Watches','Watches','Cars','Computers','Sports equipment');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Books','medium','What is the fourth book of the Old Testament?','Numbers','Numbers','Genesis','Exodus','Leviticus');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Celebrities','easy','By what name is Carlos Estevez better known? ','Charlie Sheen','Charlie Sheen','Ricky Martin','Bruno Mars','Joaquin Phoenix');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','Which of these features was added in the 1994 game &quot;Heretic&quot; that the original &quot;DOOM&quot; could not add due to limitations?','Looking up and down','Looking up and down','Increased room sizes','Unlimited weapons','Highly-detailed textures');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','medium','What is the name of the very first video uploaded to YouTube?','Me at the zoo','Me at the zoo','tribute','carrie rides a truck','Her new puppy from great grandpa vern.');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','In which order do you need to hit some Deku Scrubs to open the first boss door in &quot;Ocarina of Time&quot;?','2, 3, 1','2, 3, 1','1, 2, 3','1, 3, 2','2, 1, 3');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('History','medium','When was the United States National Security Agency established?','November 4, 1952','November 4, 1952','July 26, 1908',' July 1, 1973',' November 25, 2002');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science & Nature','medium','What is the chemical formula for ammonia?','NH3','NH3','CO2','NO3','CH4');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Music','easy','Which brass instrument has the lowest pitch in an orchestra?','Tuba','Tuba','Trumpet','Saxophone','Trombone');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Geography','hard','What year is on the flag of the US state Wisconsin?','1848','1848','1634','1783','1901');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Board Games','easy','Which of these games includes the phrase &quot;Do not pass Go, do not collect $200&quot;?','Monopoly','Monopoly','Pay Day','Cluedo','Coppit');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Music','hard','Which of the following is NOT a real song from the band Thousand Foot Krutch?','Limitless Fury','Limitless Fury','Let The Sparks Fly','Down','Give Up The Ghost');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Japanese Anime & Manga','medium','The manga JoJo&#039;s Bizarre Adventure is split into how many parts?','8','8','6','4','3');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','medium','Who is the founder of &quot;The Lego Group&quot;?','Ole Kirk Christiansen','Ole Kirk Christiansen',' Jens Niels Christiansen','Kirstine Christiansen',' Gerhardt Kirk Christiansen');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','How many zombies need to be killed to get the &quot;Zombie Genocider&quot; achievement in Dead Rising (2006)?','53,594','53,594','53,593','53,595','53,596');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Film','medium','Which one of these films are shot entirely in one-take?','Russian Ark','Russian Ark','Good Will Hunting','Birdman','Schindler&#039;s List');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Music','medium','Which of these songs by artist Eminem contain the lyric &quot;Nice to meet you. Hi, my name is... I forgot my name!&quot;?','Rain Man','Rain Man','Without Me','Kim','Square Dance');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science & Nature','medium','What does the yellow diamond on the NFPA 704 fire diamond represent?','Reactivity','Reactivity','Health','Flammability','Radioactivity');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Books','medium','The title of Adolf Hitler&#039;s autobiography &quot;Mein Kampf&quot; is what when translated to English?','My Struggle','My Struggle','My Hatred','My Sadness','My Desire');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Japanese Anime & Manga','medium','What is the name of the final villain in the manga series &quot;Bleach&quot;?','Yhwach','Yhwach','Juha Bach','Yuhabah','Juhabach');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','easy','Which water-type Pok&eacute;mon starter was introduced in the 4th generation of the series?','Piplup','Piplup','Totodile','Oshawott','Mudkip');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','easy','What is the name of the 4-armed Chaos Witch from the 2016 video game &quot;Battleborn&quot;?','Orendi','Orendi','Orendoo','Oranda','Randy');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Television','easy','British actor David Morrissey stars as which role in &quot;The Walking Dead&quot;?','The Governor','The Governor','Negan','Rick Grimes','Daryl Dixon');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Japanese Anime & Manga','hard','In &quot;One Piece&quot;, who confirms the existence of the legendary treasure, One Piece?','Edward &quot;Whitebeard&quot; Newgate','Edward &quot;Whitebeard&quot; Newgate','Former Marine Fleet Admiral Sengoku','Pirate King Gol D Roger','Silvers Rayleigh');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Cartoon & Animations','medium','In &quot;The Simpsons&quot;, where did Homer and Marge first meet?','At Summer Camp','At Summer Camp','At High School','At Church','At 742 Evergreen Terrace');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','medium','In a 1994 CBS interview, Microsoft co-founder Bill Gates performed what unusual trick on camera?','Jumping over an office chair','Jumping over an office chair','Jumping backwards over a desk','Standing on his head','Typing on a keyboard during a handstand');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science: Computers','easy','The C programming language was created by this American computer scientist. ','Dennis Ritchie','Dennis Ritchie','Tim Berners Lee','al-Khwārizmī','Willis Ware');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science & Nature','easy','What animal takes part in Schr&ouml;dinger&#039;s most famous thought experiment?','Cat','Cat','Dog','Bat','Butterfly');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','Which of these is NOT a name of a city in the main island of PLAYERUNKNOWN&#039;S BATTLEGROUNDS?','Belushya Guba','Belushya Guba','Yasnaya Polyana','Pochinki','Georgopol');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('History','easy','How old was Adolf Hitler when he died?','56','56','43','65','47');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','In which game did the Konami Code make its first appearance?','Gradius','Gradius','Contra','Castlevania','Dance Dance Revolution');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Music','hard','What was the name of the rock band that Nobuo Uematsu formed that played songs from various Final Fantasy games?','The Black Mages','The Black Mages','The Final Fantasies','The Espers','The Rock Summoners');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('History','medium','What was the code name for the German invasion of the Soviet Union in WW2?','Operation Barbarossa','Operation Barbarossa','Operation Kaiserschlact','Operation Unthinkable','Operation Molotov');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Cartoon & Animations','medium','What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?','Captain Jack','Captain Jack','Captain Jake','Captain Hector','Captain Flynn');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','hard','The creation of the  Entertainment Software Ratings Board (ESRB) is often associated with Mortal Kombat and what FMV video game?','Night Trap','Night Trap','Sewer Shark','The Daedalus Encounter','Corpse Killer');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','Which game won the &quot;Games for Impact&quot; award in The Game Awards 2015?','Life is Strange','Life is Strange','Ori and the Blind Forest','Rocket League','Metal Gear Solid V: The Phantom Pain');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','hard','Which of the following  British Monarchs never appeared on a circulated pound sterling coin?','Edward VIII','Edward VIII','Victoria','George VI','Charles II');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('History','hard','The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?','Navarre','Navarre','Galicia','Granada','Catalonia');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','easy','Which of the following blood component forms a plug at the site of injuries?','Platelets','Platelets','Red blood cells','White blood cells','Blood plasma');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science & Nature','medium','What is the study of the cells and tissues of plants and animals?','Histology','Histology','Microbiology','Anatomy','Biochemistry');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','Who is the half-demon character in Divinity: Original Sin 2 who you talk to to transition between acts?','Malady','Malady','Meister Siva','Gawin','Exter');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('General Knowledge','easy','What is the famous Papa John&#039;s last name?','Schnatter','Schnatter','Chowder','Williams','ANDERSON');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Science: Computers','easy','What language does Node.js use?','JavaScript','JavaScript','Java','Java Source','Joomla Source Code');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','In which U.S. state is Far Cry 5&#039;s fictional setting &#039;Hope County&#039; located?','Montana','Montana','Idaho','Wyoming','North Carolina');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Video Games','medium','In Splatoon, what is the age that inklings can freely change between squid and humanoid forms?','14','14','13','16','10');
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES ('Entertainment: Film','hard','Which singer is portrayed by Bruce Campbell in the 2002 film &#039;Bubba Ho-Tep&#039;?','Elvis Presley','Elvis Presley','Johnny Cash','Hank Williams, Sr.','Buddy Holly');

@@ -1,0 +1,36 @@
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','How to list all Kubernetes pods in the current namespace, with more details?','kubectl get pods -o wide','kubectl get pods -f more','kubectl get pods -v','kubectl get pods -o details','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','Which command shows merged kubeconfig settings?','kubectl config view','kubectl config list','kubectl config show','kubectl config print','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','Which command can be used to count characters in a text file?','ccount','fsize','count','wc','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','How to dump pod logs (stdout) in Kubernetes?','kubectl log my-pod','kubectl pod logs my-pod','kubectl logs my-pod','kubectl pods logs my-pod','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','What will the following command do - $ chmod 888 file','It enables r,w,x premissions for all users','It disables r,w,x premissions for all users','It enables r,w,x permissions only for owner of the file','None of the above.','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','How to list all Kubernetes services in the current namespace?','kubectl get-all services','kubectl print services','kubectl dump services','kubectl get services','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','What is Minikube','Specification of a Kubernetes API object in JSON or YAML format','A pod object that a kubelet uses to represent a static pod','A tool for running Kubernetes locally','An abstraction used by Kubernetes to support multiple virtual clusters on the same physical cluster','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','What does the command top show','The space usage','The memory usage','The current processes alongside information about them','Nothing, it is not a command','option3');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','Which command can be used to display basic information about your server?','uname','info','ls','show','option1');
+INSERT INTO public.question(
+	difficulty, category, question, option1, option2, option3, option4, correct_answer)
+	VALUES ('easy','Linux','Which of the following is a text editor that can be used in command mode to edit files on a Linux system?','vi or vim','lsof','open','edit','option1');
+
+
+
+INSERT INTO public.question(
+	category, difficulty, question,correct_answer, option1, option2, option3, option4)
+	VALUES (
