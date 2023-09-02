@@ -3,6 +3,8 @@ package com.suren.quiz.service;
 import com.suren.quiz.dao.QuestionDao;
 import com.suren.quiz.entity.Question;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,18 +14,18 @@ public class QuestionService
 {
 	@Autowired
 	QuestionDao questionDao;
-	public List<Question> getAllQuestions()
+	public ResponseEntity<List<Question>> getAllQuestions()
 	{
-		return questionDao.findAll();
+		return new ResponseEntity<>(questionDao.findAll(), HttpStatus.OK);
 	}
 
-	public List<Question> getQuestionsByCategory(String category)
+	public ResponseEntity<List<Question>> getQuestionsByCategory(String category)
 	{
-		return questionDao.findByCategory(category);
+		return new ResponseEntity<>(questionDao.findByCategory(category), HttpStatus.OK);
 	}
 
-	public Question addNewQuestion(Question question)
+	public ResponseEntity<Question> addNewQuestion(Question question)
 	{
-		return questionDao.save(question);
+		return new ResponseEntity<>(questionDao.save(question), HttpStatus.CREATED);
 	}
 }
