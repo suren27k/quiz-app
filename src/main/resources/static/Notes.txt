@@ -1,0 +1,40 @@
+What happened?
+
+1. Create a table in DB for storing questions.
+2. Using some open source API, gather questions and manually insert them in DB.
+3. Create CRUD operation for questions.
+4. Create quiz
+	1. No need to manually create quiz table and mapping table in DB. They will be auto-created in the next run of the
+	   application when we create the entities and add the required annotations like @ManyToMany, @Entity, etc.
+
+	   Note: We do not have to manually create these tables. We just code in the entities and they are auto created
+	   in the next run of the application.
+
+	2. This part is a bit tricky. See how the SQL works in @Query annotation in QuizService. Also look at @ManyToMany.
+		1. In the SQL query, we use colon operator to mention outside variables of java within it.
+		2. What is nativeQuery here?
+	3. One table is quiz table. The second is a mapping table for mapping quiz and questions.
+	4. Why 2 tables were created? Because this is a many-many mapping.
+	5. Why is this not a one-many mapping? One quiz has many questions right?
+		1. When deciding between the 4 mappings : one-one, one-many, many-one, many-many, always think from both
+			side. Does one quiz have many questions? Can one question be on many quiz?
+		2. Since answer is yes to both questions, we have many-many mapping here.
+
+
+Fetching a quiz
+1. Instead of returning a quiz object, we return only the list of questions.
+2. We do not need to include the correct answer, difficulty, category in this request.
+3. So, we create a new entity QuestionWrapper without those fields.
+4. In QuizService, we get the quiz and store it in Optional - otherwise compiler error because Dao might return null if
+   no entry is found in the DB for the given ID.
+5. Now, we manually copy all required fields from fetcher Questions to QuestionWrappers.
+
+
+Submitting quiz and evaluating the score (/submit)
+1. Instead of checking if chosen option is correct answer or not, check if the value of chosen option is same as the
+    value of correct answer.
+2. The id of question if going to be in the path and the responses to each question will in the request body - so here,
+    we have @PathVariable and @ResponseBody for the same function in the arguments list.
+3. We have to create a new class QuizResponse for ORM of the responses sent to server. We use @RequiredArgsConstructor
+    to make both default and all params constructor available through lombok.
+4. Calculating quiz score is business logic - so we do it in service layer.
